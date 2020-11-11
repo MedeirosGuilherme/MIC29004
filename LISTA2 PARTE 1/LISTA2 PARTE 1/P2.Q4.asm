@@ -1,0 +1,8 @@
+        ORG 0000H
+	MOV A,#14D
+	MOV B,#07H
+	ORL A,B
+	CPL A
+	ADD A,#01D
+	MOV 30H,A
+	END
